@@ -1,17 +1,4 @@
-listen tcp 0.0.0.0:8080: bind: address already in use
-github.com/pterodactyl/wings/cmd.rootCmdRun
-        /home/runner/work/wings/wings/cmd/root.go:357
-github.com/spf13/cobra.(*Command).execute
-        /home/runner/go/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
-github.com/spf13/cobra.(*Command).ExecuteC
-        /home/runner/go/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
-github.com/spf13/cobra.(*Command).Execute
-        /home/runner/go/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
-github.com/pterodactyl/wings/cmd.Execute
-        /home/runner/work/wings/wings/cmd/root.go:369
-main.main
-        /home/runner/work/wings/wings/wings.go:8
-runtime.main
-        /opt/hostedtoolcache/go/1.15.6/x64/src/runtime/proc.go:204
-runtime.goexit
-        /opt/hostedtoolcache/go/1.15.6/x64/src/runtime/asm_amd64.s:1374
+ERROR: [Jan  3 01:43:57.290] failed to run install process for server error=Error response from daemon: OCI runtime create failed: container_linux.go:370: starting container process caused: process_linux.go:459: container init caused: process_linux.go:422: setting cgroup config for procHooks process caused: resulting devices cgroup doesn't match target mode: unknown server=afeb8131-c589-47df-87d0-2e7aa949455b
+
+Stacktrace:
+Error response from daemon: OCI runtime create failed: container_linux.go:370: starting container process caused: process_linux.go:459: container init caused: process_linux.go:422: setting cgroup config for procHooks process caused: resulting devices cgroup doesn't match target mode: unknown
