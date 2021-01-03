@@ -1,0 +1,17 @@
+listen tcp 0.0.0.0:8080: bind: address already in use
+github.com/pterodactyl/wings/cmd.rootCmdRun
+        /home/runner/work/wings/wings/cmd/root.go:357
+github.com/spf13/cobra.(*Command).execute
+        /home/runner/go/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+        /home/runner/go/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+        /home/runner/go/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/pterodactyl/wings/cmd.Execute
+        /home/runner/work/wings/wings/cmd/root.go:369
+main.main
+        /home/runner/work/wings/wings/wings.go:8
+runtime.main
+        /opt/hostedtoolcache/go/1.15.6/x64/src/runtime/proc.go:204
+runtime.goexit
+        /opt/hostedtoolcache/go/1.15.6/x64/src/runtime/asm_amd64.s:1374
